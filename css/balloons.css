@@ -35,3 +35,8 @@ a:hover {
 ul {
     list-style: square;
 }
+.introduction {
+    font-size: 1.5em;
+    color: #72005f;
+    font-style: italic;
+}
