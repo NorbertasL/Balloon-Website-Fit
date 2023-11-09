@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+h1 {
+    font-size: 3em;
+    color: #609;
+    font-weight: normal;
+    font-family: "Courier New", Courier, monospace; 
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: italic;
+    
+}
+h2, h3, h4 {
+    color: #99007f;
+}
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+strong {
+    font-style: italic;
+}
+a:link {
+    color: #609;
+}
+a:visited {
+    color: #876399;
+}
+a:hover {
+    color: #390;
+}
+ul {
+    list-style: square;
+}
