@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	<title>Contact Us<</title>
+	<title>Contact Us</title>
 	<link type="text/css" rel="stylesheet" href="css/balloons.css"/>
 	<meta charset="utf-8"/>
 	</head>
@@ -16,6 +16,38 @@
         </ul>
 
         <p>Please feel free to <a href="mailto:balloons@example.com">send us an email</a> if you would like to know more about our products</p>
+
+        <!--Contact Form-->
+        <div id="contactFormContainer">
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="cfName">
+
+                <label for="subject">Subject</label>
+                <select id="cfSubject">
+                    <option value="cfBooking">Book Us!</option>
+                    <option value="cfIssue">Have an Issue.</option>
+                    <option value="cfOther">Other...</option>
+                </select>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="cfEmail">
+
+                <label for="phoneNumber">Your Phone</label>
+                <input type="phone" id="cfPhone">
+
+                <label for="textBox">Extra Information</label>
+                <textarea  id="cfTextBox"></textarea>
+
+                <input type="submit" value="Submit">
+
+
+
+
+            </form>
+
+
+        </div>
 		
 
 	</body>
