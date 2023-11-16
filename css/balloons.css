@@ -34,6 +34,11 @@ h1 {
     font-weight: normal;
     font-family: "Courier New", Courier, monospace; 
 
+    background-color: #e4c1f5;
+    border: 1px solid #4c0072;
+
+    padding: 0.5em;
+
     margin-bottom: 0;
 }
 h2 {
