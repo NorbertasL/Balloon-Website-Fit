@@ -2,4 +2,4 @@
 ## [Preview Website](https://norbertasl.github.io/Balloon-Website-Fit/index.html)
 
 
-### [Transition exercise ](https://norbertasl.github.io/Balloon-Website-Fit/ytansitions.html)
+### [Transition exercise ](https://norbertasl.github.io/Balloon-Website-Fit/transitions.html)
