@@ -32,6 +32,8 @@ body {
         color: #000;
         background-color: #FF944D;
         border-radius: 8px;
+
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     }
 
     /* Style for the link when hovered */
