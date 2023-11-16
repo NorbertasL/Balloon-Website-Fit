@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Transitions</title>
+
+        <link rel="stylesheet" href="transitions.css" />
+    </head>
+    <body>
+
+        <h1>Transitions</h1>
+
+        <main>
+            <section class="transition-links">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">I am a link made with HTML and CSS!</a>
+            </section>
+
+            <section class="jsTransition-classes">
+                <p>
+                    <button class="trigger">Click this button - it's an event!</button>
+                </p>
+                <div class="target">
+                    I am the target element! <br>I change after you click a button (event), made with JavaScript
+                </div>
+            </section>
+
+        </main>
+
+        <script>
+        /*JavaScript*/
+            const trigger = document.querySelector('.trigger');
+            const target = document.querySelector('.target');
+
+            trigger.addEventListener('click', changeTarget);
+
+            function changeTarget() {
+                target.classList.toggle('active-target');
+            }
+        </script>
+    </body>
+</html>
