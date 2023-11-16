@@ -17,14 +17,12 @@ body {
 
 .navigation a{
     display: block;
-
     text-decoration: none;
-    color: #226800;
     font-weight: bold;
 
     padding: 0.75em 1em 0.75em 1em;
 }
-.navigation a:visited{
+.navigation a, .navigation a:visited{
     color: #226800;
 }
 .navigation a:hover {
@@ -38,24 +36,32 @@ h1 {
     font-weight: normal;
     font-family: "Courier New", Courier, monospace; 
 
+    background-color: #e4c1f5;
+    border: 1px solid;
+
+    padding: 0.5em;
 
     margin-bottom: 0;
 }
-
-h1, h2, h3{
-    background-color: #e4c1f5;
-    border: 1px solid #4c0072;
-
-    padding: 0.5em;
-}
-
 h2 {
     font-size: 1.5em;
-    font-weight: italic;
+    font-style: italic;
+    background-color: #e4c1f5;
+    padding: .5em;
     
 }
-h2, h3, h4 {
+h1, h2, h3, h4{
     color: #99007f;
+
+}
+h1, h3, h4{
+    border-color: #4c0072;
+}
+h3, h4 {
+    border-style: solid;
+    border-bottom-width: 1px;
+    
+    padding: .5em;
 }
 em {
     font-style: normal;
