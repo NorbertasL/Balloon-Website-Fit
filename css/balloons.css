@@ -15,7 +15,7 @@ body {
     border-top: none;
 }
 
-.navigation a {
+.navigation a{
     display: block;
 
     text-decoration: none;
@@ -24,9 +24,13 @@ body {
 
     padding: 0.75em 1em 0.75em 1em;
 }
+.navigation a:visited{
+    color: #226800;
+}
 .navigation a:hover {
     background-color: #C4E8B1;
 }
+
 
 h1 {
     font-size: 3em;
