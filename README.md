@@ -3,3 +3,5 @@
 
 
 ### [Transition exercise ](https://norbertasl.github.io/Balloon-Website-Fit/transitions.html)
+
+### [Grouping Exercise](https://norbertasl.github.io/Balloon-Website-Fit/grouping.html)
