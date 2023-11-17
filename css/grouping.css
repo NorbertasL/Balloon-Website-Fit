@@ -13,6 +13,8 @@ h1 {
     background-color: #500911;
     padding: 0.5em;
     margin: 0 0 0.5em 0;
+
+    text-align: center;
 }
 
 /* Remove space above H2 elements */
@@ -58,12 +60,20 @@ footer {
 
 /* This rule is for the <div> that encloses the whole page */
 .page-container {
-
+    width: 90%;
+    padding: 0.5em;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 /* This rule is for the main content of the page */
 main {
+    padding-top: 2em;
+    padding-bottom: 2em;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
 }
 
 /* This grouped selector rule applies to both of the "regions" */
@@ -80,4 +90,9 @@ main {
 /* This rule is for the CSS article */
 .css-feature {
     background-color: #FFF59C; /* pale yellow */
+}
+
+.html-feature, .css-feature{
+    padding: 1em;
+
 }
