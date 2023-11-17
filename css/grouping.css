@@ -76,12 +76,6 @@ main {
     column-gap: 1em;
 }
 
-/* This grouped selector rule applies to both of the "regions" */
-.html-feature,
-.css-feature {
-
-}
-
 /* This rule is for the HTML article */
 .html-feature {
     background-color: #FFBC8F; /* pale peach/orange */
