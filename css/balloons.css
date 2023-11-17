@@ -11,11 +11,13 @@
     --navFontColour:#226800;
 }
 
-
+/* BODY / PAGE DEFAULT stlying */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* NAVIGATION syling */
 .navigation {
     display: flex;
 
@@ -57,7 +59,7 @@ h2 {
     padding: .5em;
     
 }
-#contactFormContainer, h1{
+ h1{
     background-color: var(--emphasisMainColour);
     font-weight: normal;
 
@@ -102,14 +104,17 @@ ul {
     font-style: italic;
 }
 
-
+/* CONTACT FORM styling*/
 #contactFormContainer{
+    background-color: var(--emphasisMainColour);
     font-size: 1.2em;
     border-radius: 5px;
     padding: 20px;
 }
 
-#contactFormContainer input[type=text], input[type=email], input[type=tel], select, textarea {
+#contactFormContainer input,
+#contactFormContainer select, 
+#contactFormContainer textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
