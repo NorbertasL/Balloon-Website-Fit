@@ -125,6 +125,10 @@ ul {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
+  #contactFormContainer textarea{
+    height: 10em;
+  }
+
   /* Style the submit button with a specific background color etc */
   #contactFormContainer input[type=submit] {
     background-color: #04AA6D;
