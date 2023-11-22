@@ -20,33 +20,42 @@
         </head>
         
 
-        <p>Please feel free to <a href="mailto:balloons@example.com">send us an email</a> if you would like to know more about our products</p>
+        <main>
+            <section>
+                <p>Please feel free to <a href="mailto:balloons@example.com">send us an email</a> if you would like to know more about our products</p>
+            </section>
 
-        <!--Contact Form-->
-        <div id="contactFormContainer">
-            <form action=""><!--action empty, ussualy goes to php script-->
-                <label for="cfName">Full Name</label>
-                <input required type="text" id="cfName">
+            <section>
+            <!--Contact Form-->
+                <div id="contactFormContainer">
+                    <form action=""><!--action empty, ussualy goes to php script-->
+                        <label for="cfName">Full Name</label>
+                        <input required type="text" id="cfName">
 
-                <label for="cfSubject">Subject</label>
-                <select id="cfSubject">
-                    <option value="cfBooking">Book Us!</option>
-                    <option value="cfIssue">Have an Issue.</option>
-                    <option value="cfOther">Other...</option>
-                </select>
+                        <label for="cfSubject">Subject</label>
+                        <select id="cfSubject">
+                            <option value="cfBooking">Book Us!</option>
+                            <option value="cfIssue">Have an Issue.</option>
+                            <option value="cfOther">Other...</option>
+                        </select>
 
-                <label for="cfEmail">Your Email</label>
-                <input required type="email" id="cfEmail">
+                        <label for="cfEmail">Your Email</label>
+                        <input required type="email" id="cfEmail">
 
-                <label for="cfPhone">Your Phone</label>
-                <input type="tel" id="cfPhone">
+                        <label for="cfPhone">Your Phone</label>
+                        <input type="tel" id="cfPhone">
 
-                <label for="cfTextBox">Extra Information</label>
-                <textarea required id="cfTextBox"></textarea>
+                        <label for="cfTextBox">Extra Information</label>
+                        <textarea required id="cfTextBox"></textarea>
 
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        
 		
 
 	</body>
