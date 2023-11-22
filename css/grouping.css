@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #600B14;
     background-color: #EC8F30;
+    margin: 0;
 }
 
 /* Make the h1 look like a banner */
@@ -28,7 +29,7 @@ h2 {
     margin: 0;
     padding: 0;
     background-color: #00315e;
-    display: flex;
+    
 }
 .navigation a {
     text-decoration:none;
@@ -60,20 +61,34 @@ footer {
 
 /* This rule is for the <div> that encloses the whole page */
 .page-container {
-    width: 90%;
     padding: 0.5em;
     background-color: #fff;
-    margin: 0 auto;
 }
 
 /* This rule is for the main content of the page */
 main {
     padding-top: 2em;
-    padding-bottom: 2em;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1em;
+    padding-bottom: 2em;  
+}
+article {
+    margin-bottom: .5em;
+}
+@media(min-width:37.5em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1em;
+    }
+    article{
+        margin-bottom: 0;
+    }
+    .page-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    body{
+        margin-top: 1em;
+    }
 }
 
 /* This rule is for the HTML article */
@@ -90,3 +105,12 @@ main {
     padding: 1em;
 
 }
+
+@media(min-width:30em){
+    .navigation{
+        display: flex;
+    }
+}
+
+
+
