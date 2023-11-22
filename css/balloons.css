@@ -18,7 +18,7 @@ body {
 
 
 /* NAVIGATION syling */
-.navigation {
+.navigation ul{
     display: flex;
 
     list-style: none;
