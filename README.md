@@ -6,5 +6,9 @@
 
 ### [Grouping Exercise](https://norbertasl.github.io/Balloon-Website-Fit/grouping.html)
 
-### [FlexBox Activity 1](https://norbertasl.github.io/Balloon-Website-Fit/flexbox0.html)
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+
+## Flexbox stuff from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+
+### [FlexBox Activity 1](https://norbertasl.github.io/Balloon-Website-Fit/flexboxTesting/flexbox0.html)
+
+### [FlexBox Wraping](https://norbertasl.github.io/Balloon-Website-Fit/flexboxTesting/flexbox-wrap0.html)
